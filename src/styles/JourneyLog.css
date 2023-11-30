@@ -1,0 +1,36 @@
+.editable-row .ant-form-item-explain {
+    position: absolute;
+    top: 100%;
+    font-size: 12px;
+}
+
+.editable-cell {
+    position: relative;
+  }
+  
+  .editable-cell-value-wrap {
+    padding: 5px 12px;
+    cursor: pointer;
+  }
+  
+  .editable-row:hover .editable-cell-value-wrap {
+    padding: 4px 11px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+  }
+  .my-custom-table {
+    /* border: 1px solid #e8e8e8; */
+    border-radius: 4px;
+  }
+  .ant-table-cell {
+    /* border: 1px solid #e8e8e8;  */
+    padding: 8px 12px; /* Add padding to the cells to improve the appearance */
+    text-align: center;
+  }
+
+  /* table height change */
+  .ant-table-thead > tr > th {
+    height: 10px !important; /* adjust this value to your desired height */
+    padding: 5px 5px !important; /* adjust this value to your desired padding */
+    text-align: center !important;
+  }

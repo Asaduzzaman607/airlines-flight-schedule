@@ -1,0 +1,23 @@
+export const CABIN_CREW_TYPES = {
+    PURSER: 'PURSER',
+    JUNIOR_PURSER: 'JUNIOR_PURSER',
+    GENERAL_CREW: 'GENERAL_CREW'
+}
+
+export const COCKPIT_CREW_TYPES = {
+    FIRST_OFFICER: "FIRST_OFFICER",
+    CAPTAIN: "CAPTAIN"
+}
+
+export const CREW_TYPES_MAP = {
+    [CABIN_CREW_TYPES.PURSER]: "Purser",
+    [CABIN_CREW_TYPES.JUNIOR_PURSER]: "Junior Purser",
+    [CABIN_CREW_TYPES.GENERAL_CREW]: "General Crew",
+    [COCKPIT_CREW_TYPES.CAPTAIN]: "Captain",
+    [COCKPIT_CREW_TYPES.FIRST_OFFICER]: "First Officer"
+}
+
+export const CABIN_CREW = 'CABIN_CREW'
+export const COCKPIT_CREW = 'COCKPIT_CREW'
+
+export const DATE_FORMAT = 'YYYY-MM-DD';

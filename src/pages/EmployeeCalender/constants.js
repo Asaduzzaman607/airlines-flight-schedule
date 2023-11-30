@@ -1,0 +1,8 @@
+export const TYPES_SHORT_FORM = {
+    PURSER: 'P',
+    JUNIOR_PURSER: 'JP',
+    GENERAL_CREW: 'JC',
+    FIRST_OFFICER: 'FO',
+    CAPTAIN: 'C',
+    TRAINEE_FIRST_OFFICER: 'TFO'
+}
